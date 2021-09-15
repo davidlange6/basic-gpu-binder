@@ -19,6 +19,6 @@ dependencies:
   - nvidia-ml
   - cupti
   - pytorch
-  - tensorflow==2.3
+  - tensorflow=2.3
 #   - pip:
 #     - tensorflow==2.3
