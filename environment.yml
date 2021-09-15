@@ -1,8 +1,21 @@
 name: gpu-binder
 channels:
+    - nvidia
+    - anaconda
     - conda-forge
 dependencies:
   - tensorflow-gpu
-  - cudatoolkit=9.0
+  - cudatoolkit-dev=10
+  - cudnn=7.6
   - matplotlib
   - keras-gpu
+  - cxx-compiler
+  - python=3.7
+  - gcc_linux-64=7.3
+  - nvcc_linux-64
+  - nccl
+  - cmake
+  - nvidia-ml
+   - cupti
+  - pip:
+    - tensorflow==2.3
