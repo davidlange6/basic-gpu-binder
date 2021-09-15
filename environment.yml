@@ -4,7 +4,8 @@ channels:
     - anaconda
     - conda-forge
 dependencies:
-  - tensorflow-gpu
+#   - tensorflow-gpu
+  - pip
   - cudatoolkit-dev=10
   - cudnn=7.6
   - matplotlib
