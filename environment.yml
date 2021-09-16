@@ -22,4 +22,4 @@ dependencies:
 #   - tensorflow=2.3
   - pip:
     - tensorflow==2.3
-    - torch
+#     - torch
