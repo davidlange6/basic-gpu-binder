@@ -20,6 +20,16 @@ dependencies:
   - cupti
 #   - torch
 #   - tensorflow=2.3
+  - nodejs
+  - ipython
+  - jupyter
+  - jupyterlab=2.2.0
+  - jupyter_contrib_nbextensions
+  - jupyter_nbextensions_configurator
+  - jupyterlab_widgets
+  - opencv
   - pip:
     - tensorflow==2.3
+    - jupyterlab-git
 #     - torch
+
