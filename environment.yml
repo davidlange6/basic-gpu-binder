@@ -31,6 +31,6 @@ dependencies:
   - pip:
     - tensorflow==2.3
     - jupyterlab-git
-    - -r file:requirements.txt
+#     - -r file:requirements.txt
 #     - torch
 
