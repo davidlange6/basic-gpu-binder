@@ -6,13 +6,13 @@ channels:
 dependencies:
 #   - tensorflow-gpu
   - pip
-  - cudatoolkit-dev=10
-  - cudnn=7.6
+  - cudatoolkit-dev
+  - cudnn
   - matplotlib
   - keras-gpu
   - cxx-compiler
-  - python=3.7
-  - gcc_linux-64=7.3
+  - python
+  - gcc_linux-64
   - nvcc_linux-64
   - nccl
   - cmake
@@ -29,7 +29,7 @@ dependencies:
   - jupyterlab_widgets
   - opencv
   - pip:
-    - tensorflow==2.3
+    - tensorflow
     - jupyterlab-git
     - -r requirements.txt
 #     - torch
