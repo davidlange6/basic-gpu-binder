@@ -17,3 +17,5 @@ jupyter labextension install @eddienko/jupyterlab-colabinspired-codecellbtn \
                 # @jupyterlab/apputils \
                 # @jupyterlab/celltags \
 jupyter labextension enable
+mkdir /srv/conda/envs/notebook/lib64
+ln -s /srv/conda/envs/notebook/lib /srv/conda/envs/notebook/lib64/lib
