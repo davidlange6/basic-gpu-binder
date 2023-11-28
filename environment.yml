@@ -16,21 +16,21 @@ dependencies:
   - python
   - gcc_linux-64
   - nvcc_linux-64
-  - nccl
+#  - nccl
   - cmake
   - nvidia-ml
   - cupti
-  - zarr
-#   - torch
+#  - zarr
+##   - torch
   - tensorflow
-  - nodejs
+# - nodejs
   - ipython
   - jupyter
   - jupyterlab=2.2.0
   - jupyter_contrib_nbextensions
   - jupyter_nbextensions_configurator
   - jupyterlab_widgets
-  - opencv
+#  - opencv
   - pip:
 #     - tensorflow
     - jupyterlab-git
